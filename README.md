@@ -1,15 +1,43 @@
-# Sistema de Gestão de Produtos
+# 📦 Sistema de Gestão de Produtos
 
-Este é um projeto Fullstack desenvolvido como parte do meu portfólio.
+Este é um projeto Fullstack desenvolvido com o objetivo de criar uma solução robusta para o controle e gestão de estoque de produtos. O sistema permite realizar operações de CRUD (Criar, Ler, Atualizar e Deletar).
 
-## Tecnologias utilizadas:
-- **Backend:** C# / .NET
-- **Frontend:** React / Tailwind CSS
+## 🚀 Tecnologias Utilizadas
 
-## Como rodar o projeto:
-1. Clone o repositório.
-2. Na pasta do Backend, rode a API em seu Visual Studio.
-3. Na pasta do Frontend, instale as dependências com `npm install` e rode com `npm run dev`.
+Este projeto foi construído utilizando as seguintes tecnologias:
+
+### Backend (API)
+- **C# / .NET**: Linguagem e framework para o servidor.
+- **Visual Studio 2022**: Ambiente de desenvolvimento.
+
+### Frontend
+- **React**: Biblioteca para a interface do usuário.
+- **Tailwind CSS**: Estilização ágil e responsiva.
 
 ---
-Desenvolvido por Roger Robert.
+
+## 🛠 Funcionalidades
+- [ ] Cadastro de novos produtos.
+- [ ] Listagem de produtos existentes.
+- [ ] Edição de informações (preço, categoria, etc.).
+- [ ] Exclusão de itens do estoque.
+
+---
+
+## 📋 Como rodar o projeto localmente
+
+### Pré-requisitos
+Certifique-se de ter instalado na sua máquina:
+- [.NET SDK](https://dotnet.microsoft.com/)
+- [Node.js](https://nodejs.org/)
+
+### Backend
+1. Abra a pasta do projeto C# no **Visual Studio**.
+2. Configure a string de conexão do banco de dados (se necessário).
+3. Execute a aplicação pressionando `F5` ou o botão de Play.
+
+### Frontend
+1. Abra um terminal na pasta do front-end.
+2. Instale as dependências:
+   ```bash
+   npm install
