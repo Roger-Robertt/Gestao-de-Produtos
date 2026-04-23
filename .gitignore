@@ -1,0 +1,13 @@
+# Dependências de Node e Frontend
+node_modules
+dist
+.env
+
+# Pastas de build do Visual Studio (C#)
+bin
+obj
+.vs
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
